@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/human.jpg">
+    <title>Empreendedor</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="header">
+        <div class="wallet">
+            <img id="logo" src="./assets/human.jpg" alt="human">
+            <h1>Carteira:</h1>
+            <p id="wallet"></p>
+            <h1>Local:</h1>
+            <img id="running" src="./assets/person-running.gif" alt="running">
+            <select disabled id="local" name="location" onChange="MudarLocal()">
+                <option value="loja">Loja</option>
+                <option value="semaforo">Semaforo</option>
+                <option value="praia">Praia</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="box-items">
+        <div class="box-click">
+            <img src="assets/homeless.jpg" alt="homeless">
+            <p id="homeless"></p>
+            <button id="btnGetSomething" onclick="GetSomething()">Procurar Algo<p id="GetSomething"></p></button>
+        </div>
+
+        <div class="box-click">
+            <img src="assets/agua.png" alt="Agua">
+            <p id="water"></p>
+            <button id="btnBuyWater" onclick="ComprarAgua()">Comprar<p id="waterBuyPrice"></p></button>
+            <button id="btnSellWater" onclick="VenderAgua()">Vender<p id="waterSellPrice"></p></button>
+        </div>
+    </div>
+
+    <div class="box-others">
+        <div id="funcionario1" hidden>
+            <img src="assets/funcionario.jpg" alt="funcionario">
+            <p id="funcionario"></p>
+            <button id="btnContratarFuncionario" onclick="ContratarFuncionario()">Contratar<p id="valorFuncionario1"></p></button>
+        </div>
+        
+        <div id="bike">
+            <img src="assets/bike.jpg" alt="bike">
+            <p id="bike"></p>
+            <button id="btnComprarBike" onclick="ComprarBike()">Comprar<p id="bikeBuyPrice"></p></button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

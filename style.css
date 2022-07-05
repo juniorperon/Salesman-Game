@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+h1 {
+    padding: 5px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+#logo {
+    width: 5%;
+}
+
+#running {
+    width:2%;
+}
+
+img {
+    width: 10%;
+}
+
+.wallet {
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.box-items button {
+    padding: 1%;
+    margin: 1%;
+}
+
+.box-others {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.box-others button {
+    padding: 1%;
+    margin: 1%;
+}
+
